@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional legal services provided by our German law firm.">
+    <title>German Law Firm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #00274d;
+            color: white;
+            padding: 20px 40px;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1920x800') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .hero button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #004085;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hero button:hover {
+            background-color: #00274d;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services, .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .service {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: left;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .service h3 {
+            font-size: 20px;
+            color: #00274d;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #004085;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #00274d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Experte für deutsches Handels- und Strafrecht</div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#criminal-law">Criminal Law</a>
+            <a href="#commercial-law">Commercial Law</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Welcome to Experte für deutsches Handels- und Strafrecht</h1>
+        <p>Your trusted partner for legal solutions in Germany.</p>
+        <button>Contact Us</button>
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded in 2023, we are a German law firm dedicated to providing top-notch legal services for individuals and businesses. With years of experience, we specialize in corporate law, family law, and international cases.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Corporate Law</h3>
+                <p>Comprehensive legal solutions for businesses, including contracts, compliance, and litigation.</p>
+            </div>
+            <div class="service">
+                <h3>Family Law</h3>
+                <p>Expert guidance on family matters such as divorce, custody, and inheritance.</p>
+            </div>
+            <div class="service">
+                <h3>International Cases</h3>
+                <p>Specialized services for cross-border legal issues, ensuring global compliance.</p>
+            </div>
+        </div>
+    </section>
+    <section id="criminal-law">
+        <h2>Criminal Law</h2>
+        <p>Our team provides expert defense and legal support for criminal cases, ensuring your rights are protected at every step.</p>
+    </section>
+    <section id="commercial-law">
+        <h2>Commercial Law</h2>
+        <p>We offer specialized advice and representation for commercial disputes, contracts, and business transactions.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Experte für deutsches Handels- und Strafrecht. All rights reserved.</p>
+    </footer>
+</body>
+</html>
